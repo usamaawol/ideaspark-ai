@@ -38,7 +38,7 @@ serve(async (req) => {
         body: JSON.stringify({
           messages: [
             { role: "system", content: `You are an expert AI prompt engineer and product architect. Respond in ${respondLang}.` },
-            { role: "user", content: `Generate a comprehensive, production-ready AI builder prompt for the following idea:\n\nTitle: ${title}\nDescription: ${description || "No description"}\n\nThe prompt must include:\n1. Project Overview & Vision\n2. Core Features (detailed)\n3. Advanced Features\n4. UI/UX Design Guidelines\n5. Technical Stack Recommendations\n6. Database Schema suggestions\n7. API integrations needed\n8. Target Users & Market\n9. Monetization Strategy\n10. Success Metrics\n\nMake it detailed, structured, and immediately usable in AI builders like Lovable, Cursor, or ChatGPT.` }
+            { role: "user", content: `Generate a comprehensive, production-ready AI builder prompt for the following idea:\n\nTitle: ${title}\nDescription: ${description || "No description"}\n\nThe prompt must include:\n1. Project Overview & Vision\n2. Core Features (detailed)\n3. Advanced Features\n4. UI/UX Design Guidelines\n5. Technical Stack Recommendations\n6. Database Schema suggestions\n7. API integrations needed\n8. Target Users & Market\n9. Monetization Strategy\n10. Success Metrics\n\nMake it detailed, structured, and immediately usable in AI builders like Cursor or ChatGPT.` }
           ],
           max_tokens: 1500,
         }),

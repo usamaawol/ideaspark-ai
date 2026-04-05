@@ -1,2 +1,2 @@
-// Lovable integration removed - using Supabase directly
+// Placeholder — not used
 export const lovable = {};

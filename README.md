@@ -49,7 +49,7 @@ A mobile-first AI-powered idea management platform that helps users capture, ana
 - **Expand Idea** — generates a full product vision with roadmap, monetization model, and growth strategies
 - **Generate Image** — creates a smartphone app mockup image visualizing how the idea looks as a mobile app
 - **Translate** — translates idea to English, Amharic, or Arabic (Afan Oromo coming soon)
-- **Generate Prompt** — produces a detailed, production-ready AI builder prompt with 10 sections ready to use in Lovable, Cursor, or ChatGPT
+- **Generate Prompt** — produces a detailed, production-ready AI builder prompt with 10 sections ready to use in Cursor or ChatGPT
 
 ### Export
 - **Download PDF** — exports the generated AI prompt and all analysis to a PDF file
